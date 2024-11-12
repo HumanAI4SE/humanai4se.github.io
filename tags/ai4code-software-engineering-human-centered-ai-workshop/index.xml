@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI4Code, Software Engineering, Human-Centered AI, Workshop on The 1st Workshop on Human-Centered AI for SE</title>
+    <link>http://localhost:1313/tags/ai4code-software-engineering-human-centered-ai-workshop/</link>
+    <description>Recent content in AI4Code, Software Engineering, Human-Centered AI, Workshop on The 1st Workshop on Human-Centered AI for SE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Nov 2024 11:10:36 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai4code-software-engineering-human-centered-ai-workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to HumanAI4SE</title>
+      <link>http://localhost:1313/posts/blog-post-1/</link>
+      <pubDate>Sun, 10 Nov 2024 11:10:36 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blog-post-1/</guid>
+      <description>Explore the intersection of AI and Software Engineering, focusing on human-centered approaches to enhance developer productivity and uphold ethical standards.</description>
+    </item>
+  </channel>
+</rss>
