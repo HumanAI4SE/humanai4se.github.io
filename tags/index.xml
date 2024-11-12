@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The 1st Workshop on Human-Centered AI for SE</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://humanai4se.github.io/tags/</link>
     <description>Recent content in Tags on The 1st Workshop on Human-Centered AI for SE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Nov 2024 11:10:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://humanai4se.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website Launch, News</title>
-      <link>http://localhost:1313/tags/website-launch-news/</link>
+      <link>https://humanai4se.github.io/tags/website-launch-news/</link>
       <pubDate>Mon, 11 Nov 2024 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/tags/website-launch-news/</guid>
+      <guid>https://humanai4se.github.io/tags/website-launch-news/</guid>
       <description></description>
     </item>
     <item>
       <title>AI4Code, Software Engineering, Human-Centered AI, Workshop</title>
-      <link>http://localhost:1313/tags/ai4code-software-engineering-human-centered-ai-workshop/</link>
+      <link>https://humanai4se.github.io/tags/ai4code-software-engineering-human-centered-ai-workshop/</link>
       <pubDate>Sun, 10 Nov 2024 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/tags/ai4code-software-engineering-human-centered-ai-workshop/</guid>
+      <guid>https://humanai4se.github.io/tags/ai4code-software-engineering-human-centered-ai-workshop/</guid>
       <description></description>
     </item>
     <item>
       <title>Organizing Committee, HumanAISE Workshop, AI in Software Engineering</title>
-      <link>http://localhost:1313/tags/organizing-committee-humanaise-workshop-ai-in-software-engineering/</link>
+      <link>https://humanai4se.github.io/tags/organizing-committee-humanaise-workshop-ai-in-software-engineering/</link>
       <pubDate>Sat, 09 Nov 2024 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/tags/organizing-committee-humanaise-workshop-ai-in-software-engineering/</guid>
+      <guid>https://humanai4se.github.io/tags/organizing-committee-humanaise-workshop-ai-in-software-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Human-Centered AI, Software Engineering, AI Ethics, Collaborative AI Tools, AI Research</title>
-      <link>http://localhost:1313/tags/human-centered-ai-software-engineering-ai-ethics-collaborative-ai-tools-ai-research/</link>
+      <link>https://humanai4se.github.io/tags/human-centered-ai-software-engineering-ai-ethics-collaborative-ai-tools-ai-research/</link>
       <pubDate>Fri, 08 Nov 2024 18:24:58 -0600</pubDate>
-      <guid>http://localhost:1313/tags/human-centered-ai-software-engineering-ai-ethics-collaborative-ai-tools-ai-research/</guid>
+      <guid>https://humanai4se.github.io/tags/human-centered-ai-software-engineering-ai-ethics-collaborative-ai-tools-ai-research/</guid>
       <description></description>
     </item>
   </channel>

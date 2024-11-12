@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on The 1st Workshop on Human-Centered AI for SE</title>
-    <link>http://localhost:1313/categories/blog/</link>
+    <link>https://humanai4se.github.io/categories/blog/</link>
     <description>Recent content in Blog on The 1st Workshop on Human-Centered AI for SE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Nov 2024 11:10:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://humanai4se.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to HumanAI4SE</title>
-      <link>http://localhost:1313/posts/blog-post-1/</link>
+      <link>https://humanai4se.github.io/posts/blog-post-1/</link>
       <pubDate>Sun, 10 Nov 2024 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/blog-post-1/</guid>
+      <guid>https://humanai4se.github.io/posts/blog-post-1/</guid>
       <description>Explore the intersection of AI and Software Engineering, focusing on human-centered approaches to enhance developer productivity and uphold ethical standards.</description>
     </item>
     <item>
       <title>Introduction to the Organizing Committee</title>
-      <link>http://localhost:1313/posts/blog-post-2/</link>
+      <link>https://humanai4se.github.io/posts/blog-post-2/</link>
       <pubDate>Sat, 09 Nov 2024 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/blog-post-2/</guid>
+      <guid>https://humanai4se.github.io/posts/blog-post-2/</guid>
       <description>Meet the dedicated team leading the HumanAISE Workshop, committed to advancing human-centered AI in software engineering.</description>
     </item>
     <item>
       <title>Current Progress in Human-Centered AI for Software Engineering</title>
-      <link>http://localhost:1313/posts/blog-post-3/</link>
+      <link>https://humanai4se.github.io/posts/blog-post-3/</link>
       <pubDate>Fri, 08 Nov 2024 18:24:58 -0600</pubDate>
-      <guid>http://localhost:1313/posts/blog-post-3/</guid>
+      <guid>https://humanai4se.github.io/posts/blog-post-3/</guid>
       <description>Explore the latest advancements in integrating human-centered artificial intelligence within software engineering, focusing on ethical considerations, collaborative tools, and emerging research.</description>
     </item>
   </channel>
