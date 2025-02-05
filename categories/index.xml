@@ -6,20 +6,20 @@
     <description>Recent content in Categories on The 1st Workshop on Human-Centered AI for SE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2025 19:42:49 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 11:10:36 +0800</lastBuildDate>
     <atom:link href="https://humanai4se.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog</title>
-      <link>https://humanai4se.github.io/categories/blog/</link>
-      <pubDate>Tue, 04 Feb 2025 19:42:49 -0600</pubDate>
-      <guid>https://humanai4se.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
     <item>
       <title>News</title>
       <link>https://humanai4se.github.io/categories/news/</link>
       <pubDate>Mon, 11 Nov 2024 11:10:36 +0800</pubDate>
       <guid>https://humanai4se.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://humanai4se.github.io/categories/blog/</link>
+      <pubDate>Sun, 10 Nov 2024 11:10:36 +0800</pubDate>
+      <guid>https://humanai4se.github.io/categories/blog/</guid>
       <description></description>
     </item>
   </channel>
