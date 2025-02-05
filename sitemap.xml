@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://humanai4se.github.io/categories/</loc>
-    <lastmod>2024-11-11T11:10:36+08:00</lastmod>
+    <loc>https://humanai4se.github.io/categories/blog/</loc>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
   </url><url>
-    <loc>https://humanai4se.github.io/categories/news/</loc>
-    <lastmod>2024-11-11T11:10:36+08:00</lastmod>
+    <loc>https://humanai4se.github.io/categories/</loc>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
+  </url><url>
+    <loc>https://humanai4se.github.io/tags/norwegian-wood-haruki-murakami-fse-2025-trondheim-literature-and-technology/</loc>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/posts/</loc>
-    <lastmod>2024-11-11T11:10:36+08:00</lastmod>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
+  </url><url>
+    <loc>https://humanai4se.github.io/posts/blog-post-4/</loc>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/tags/</loc>
-    <lastmod>2024-11-11T11:10:36+08:00</lastmod>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/</loc>
+    <lastmod>2025-02-04T19:42:49-06:00</lastmod>
+  </url><url>
+    <loc>https://humanai4se.github.io/categories/news/</loc>
     <lastmod>2024-11-11T11:10:36+08:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/posts/news-post-1/</loc>
@@ -24,9 +33,6 @@
     <lastmod>2024-11-11T11:10:36+08:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/tags/ai4code-software-engineering-human-centered-ai-workshop/</loc>
-    <lastmod>2024-11-10T11:10:36+08:00</lastmod>
-  </url><url>
-    <loc>https://humanai4se.github.io/categories/blog/</loc>
     <lastmod>2024-11-10T11:10:36+08:00</lastmod>
   </url><url>
     <loc>https://humanai4se.github.io/posts/blog-post-1/</loc>
