@@ -63,13 +63,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://humanai4se.github.io/prose/</guid>
       <description>The Human-Centered AI for Software Engineering (HumanAISE) Workshop Exploring AI and Human Collaboration in Software Engineering The HumanAISE workshop focuses on advancing AI systems that complement and enhance human capabilities within software engineering. By addressing key topics like human-guided AI, ethical AI practices, and human-machine collaboration, HumanAISE aims to create a future where AI serves as an empowering tool for developers rather than a replacement.&#xA;Workshop Themes and Key Topics The workshop delves into several pressing areas:</description>
-  </item>
-  <item>
-      <title>Archive</title>
-      <link>https://humanai4se.github.io/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://humanai4se.github.io/archive/</guid>
-      <description>Previous editions of the Human AISE workshop.</description>
-  </item>
+    </item>
   </channel>
 </rss>
