@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1800" height="140"
+     viewBox="0 0 900 70"
+     shape-rendering="crispEdges"
+     preserveAspectRatio="none">
+
+  <!-- background left transparent so it blends into your page -->
+  <rect width="900" height="70" fill="none" />
+
+  <!-- ========= BUILDINGS (DARK) ========= -->
+  <g fill="#111827">
+
+    <!-- Clock tower (far left) -->
+    <rect x="10" y="38" width="6" height="28"/>
+    <rect x="12" y="34" width="2" height="4"/>
+    <rect x="11" y="32" width="2" height="2"/>
+
+    <!-- Low waterfront building next to tower -->
+    <rect x="22" y="52" width="20" height="14"/>
+
+    <!-- Jacques-Cartier Bridge: road + dense truss -->
+    <!-- road deck -->
+    <rect x="44" y="58" width="90" height="4"/>
+    <!-- pylons -->
+    <rect x="50" y="54" width="4" height="4"/>
+    <rect x="70" y="50" width="4" height="8"/>
+    <rect x="90" y="46" width="4" height="12"/>
+    <rect x="110" y="50" width="4" height="8"/>
+    <rect x="130" y="54" width="4" height="4"/>
+    <!-- truss pattern -->
+    <rect x="52" y="54" width="2" height="2"/>
+    <rect x="56" y="52" width="2" height="2"/>
+    <rect x="60" y="50" width="2" height="2"/>
+    <rect x="64" y="48" width="2" height="2"/>
+    <rect x="68" y="50" width="2" height="2"/>
+    <rect x="72" y="52" width="2" height="2"/>
+    <rect x="76" y="50" width="2" height="2"/>
+    <rect x="80" y="48" width="2" height="2"/>
+    <rect x="84" y="46" width="2" height="2"/>
+    <rect x="88" y="48" width="2" height="2"/>
+    <rect x="92" y="50" width="2" height="2"/>
+    <rect x="96" y="48" width="2" height="2"/>
+    <rect x="100" y="46" width="2" height="2"/>
+    <rect x="104" y="48" width="2" height="2"/>
+    <rect x="108" y="50" width="2" height="2"/>
+    <rect x="112" y="52" width="2" height="2"/>
+    <rect x="116" y="54" width="2" height="2"/>
+    <rect x="120" y="52" width="2" height="2"/>
+    <rect x="124" y="50" width="2" height="2"/>
+    <rect x="128" y="52" width="2" height="2"/>
+
+    <!-- Downtown cluster 1 -->
+    <rect x="160" y="38" width="10" height="30"/>
+    <rect x="172" y="42" width="8"  height="26"/>
+    <rect x="182" y="34" width="12" height="34"/>
+    <rect x="196" y="40" width="8"  height="28"/>
+    <rect x="206" y="36" width="10" height="32"/>
+    <rect x="218" y="32" width="12" height="36"/>
+
+    <!-- Downtown cluster 2 (slightly taller) -->
+    <rect x="238" y="38" width="8"  height="30"/>
+    <rect x="248" y="42" width="8"  height="26"/>
+    <rect x="258" y="34" width="10" height="34"/>
+    <rect x="270" y="40" width="8"  height="28"/>
+
+    <!-- Old Montréal blocky mid-rise -->
+    <rect x="290" y="46" width="14" height="22"/>
+    <rect x="306" y="44" width="12" height="24"/>
+    <rect x="320" y="48" width="14" height="20"/>
+    <rect x="336" y="42" width="12" height="26"/>
+
+    <!-- Olympic Stadium bowl -->
+    <rect x="360" y="54" width="70" height="6"/>
+    <!-- stepped rim -->
+    <rect x="360" y="52" width="10" height="2"/>
+    <rect x="372" y="50" width="8"  height="2"/>
+    <rect x="384" y="48" width="8"  height="2"/>
+    <rect x="396" y="50" width="8"  height="2"/>
+    <rect x="408" y="52" width="10" height="2"/>
+
+    <!-- Olympic Stadium slanted tower -->
+    <rect x="402" y="28" width="8"  height="26"/>
+    <rect x="410" y="30" width="6"  height="20"/>
+    <rect x="416" y="34" width="4"  height="12"/>
+
+    <!-- Transitional mid-rises -->
+    <rect x="438" y="46" width="10" height="22"/>
+    <rect x="450" y="44" width="8"  height="24"/>
+    <rect x="460" y="48" width="10" height="20"/>
+
+    <!-- St. Joseph's Oratory dome and base -->
+    <rect x="480" y="50" width="18" height="18"/>
+    <rect x="486" y="44" width="6"  height="6"/>
+    <rect x="484" y="42" width="10" height="2"/>
+
+    <!-- Right-side modern cluster -->
+    <rect x="508" y="46" width="8"  height="22"/>
+    <rect x="518" y="42" width="10" height="26"/>
+    <rect x="530" y="38" width="8"  height="30"/>
+    <rect x="540" y="44" width="8"  height="24"/>
+
+    <!-- Final long low waterfront block -->
+    <rect x="560" y="52" width="40" height="16"/>
+
+    <!-- Far-right towers to widen skyline further -->
+    <rect x="610" y="42" width="8"  height="26"/>
+    <rect x="620" y="38" width="10" height="30"/>
+    <rect x="632" y="44" width="8"  height="24"/>
+    <rect x="642" y="40" width="10" height="28"/>
+
+    <!-- even more low buildings toward 800–880 -->
+    <rect x="664" y="50" width="12" height="18"/>
+    <rect x="680" y="46" width="10" height="22"/>
+    <rect x="694" y="48" width="12" height="20"/>
+    <rect x="710" y="44" width="10" height="24"/>
+    <rect x="724" y="50" width="10" height="18"/>
+
+    <!-- very rightmost small towers -->
+    <rect x="746" y="46" width="8"  height="22"/>
+    <rect x="756" y="42" width="8"  height="26"/>
+    <rect x="766" y="48" width="8"  height="20"/>
+    <rect x="776" y="44" width="8"  height="24"/>
+
+    <!-- Ground strip -->
+    <rect x="0" y="64" width="900" height="6"/>
+  </g>
+
+  <!-- ========= WINDOW LIGHTS (SOFT YELLOW) ========= -->
+  <g fill="#facc15">
+
+    <!-- Windows in downtown cluster 1 -->
+    <rect x="162" y="44" width="2" height="2"/>
+    <rect x="162" y="48" width="2" height="2"/>
+    <rect x="162" y="52" width="2" height="2"/>
+
+    <rect x="174" y="50" width="2" height="2"/>
+    <rect x="174" y="54" width="2" height="2"/>
+
+    <rect x="184" y="40" width="2" height="2"/>
+    <rect x="184" y="44" width="2" height="2"/>
+    <rect x="186" y="52" width="2" height="2"/>
+
+    <rect x="208" y="42" width="2" height="2"/>
+    <rect x="208" y="46" width="2" height="2"/>
+    <rect x="208" y="50" width="2" height="2"/>
+
+    <!-- Downtown cluster 2 windows -->
+    <rect x="240" y="46" width="2" height="2"/>
+    <rect x="240" y="50" width="2" height="2"/>
+    <rect x="242" y="54" width="2" height="2"/>
+
+    <rect x="260" y="40" width="2" height="2"/>
+    <rect x="260" y="44" width="2" height="2"/>
+    <rect x="262" y="52" width="2" height="2"/>
+
+    <!-- Old Montréal windows -->
+    <rect x="292" y="50" width="2" height="2"/>
+    <rect x="296" y="54" width="2" height="2"/>
+    <rect x="308" y="52" width="2" height="2"/>
+    <rect x="324" y="50" width="2" height="2"/>
+
+    <!-- Transitional mid-rise windows -->
+    <rect x="440" y="50" width="2" height="2"/>
+    <rect x="452" y="48" width="2" height="2"/>
+    <rect x="462" y="52" width="2" height="2"/>
+
+    <!-- Oratory base lights -->
+    <rect x="482" y="54" width="2" height="2"/>
+    <rect x="486" y="58" width="2" height="2"/>
+    <rect x="492" y="54" width="2" height="2"/>
+
+    <!-- Right cluster windows -->
+    <rect x="520" y="48" width="2" height="2"/>
+    <rect x="520" y="52" width="2" height="2"/>
+    <rect x="532" y="42" width="2" height="2"/>
+    <rect x="532" y="46" width="2" height="2"/>
+
+    <rect x="612" y="46" width="2" height="2"/>
+    <rect x="622" y="44" width="2" height="2"/>
+    <rect x="634" y="48" width="2" height="2"/>
+
+    <rect x="682" y="50" width="2" height="2"/>
+    <rect x="696" y="52" width="2" height="2"/>
+    <rect x="712" y="48" width="2" height="2"/>
+
+    <rect x="748" y="50" width="2" height="2"/>
+    <rect x="758" y="46" width="2" height="2"/>
+    <rect x="768" y="52" width="2" height="2"/>
+
+  </g>
+</svg>
+
