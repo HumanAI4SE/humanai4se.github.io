@@ -1,0 +1,48 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pixel-starfield" width="300" height="300" patternUnits="userSpaceOnUse">
+
+      <!-- Teal stars -->
+      <rect x="12"  y="34"  width="4" height="4" fill="#6ecae7" opacity="0.8" />
+      <rect x="180" y="20"  width="4" height="4" fill="#6ecae7" opacity="0.8" />
+      <rect x="260" y="140" width="4" height="4" fill="#6ecae7" opacity="0.8" />
+
+      <!-- Yellow stars -->
+      <rect x="95" y="280" width="4" height="4" fill="#f4e59e" />
+      <rect x="140" y="60" width="4" height="4" fill="#f4e59e" />
+      <rect x="15"  y="200" width="4" height="4" fill="#f4e59e" />
+
+      <!-- Orange stars -->
+      <rect x="220" y="250" width="4" height="4" fill="#f2b27a" />
+      <rect x="40"  y="120" width="4" height="4" fill="#f2b27a" />
+      <rect x="175" y="190" width="4" height="4" fill="#f2b27a" />
+
+      <!-- Green stars -->
+      <rect x="270" y="40"  width="4" height="4" fill="#a4e89e" />
+      <rect x="80"  y="150" width="4" height="4" fill="#a4e89e" />
+      <rect x="200" y="90"  width="4" height="4" fill="#a4e89e" />
+
+      <!-- Clusters -->
+      <g fill="#6ecae7" opacity="0.7">
+        <rect x="50" y="240" width="4" height="4" />
+        <rect x="52" y="242" width="4" height="4" />
+        <rect x="54" y="240" width="4" height="4" />
+      </g>
+
+      <g fill="#f2b27a">
+        <rect x="130" y="110" width="2" height="2" />
+        <rect x="132" y="112" width="2" height="2" />
+        <rect x="134" y="110" width="2" height="2" />
+      </g>
+
+      <!-- Specks -->
+      <rect x="10"  y="10"  width="1.5" height="1.5" fill="#ffffff" />
+      <rect x="290" y="290" width="1.5" height="1.5" fill="#ffffff" />
+      <rect x="150" y="260" width="1.5" height="1.5" fill="#ffffff" />
+
+    </pattern>
+  </defs>
+
+  <rect width="300" height="300" fill="url(#pixel-starfield)"/>
+</svg>
+
