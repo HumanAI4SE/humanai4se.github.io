@@ -53,63 +53,63 @@
 
 <body class="bg-zinc-100 dark:bg-gray-800">
     <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
-    <div x-data="{ open: false }"
-         class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-        <div class="flex flex-row items-center justify-between p-4">
-            <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="/images/site-logo.svg"
-                     class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
-                     alt="The 2nd Workshop on Human-Centered AI for SE Logo" />
-                <div
-                     class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
-                    The 2nd Workshop on Human-Centered AI for SE</div>
-            </a>
-            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
-                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                    <path x-show="!open" fill-rule="evenodd"
-                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                          clip-rule="evenodd"></path>
-                    <path x-show="open" fill-rule="evenodd"
-                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                          clip-rule="evenodd"></path>
-                </svg>
-            </button>
+        <div x-data="{ open: false }"
+            class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+            <div class="flex flex-row items-center justify-between p-4">
+                <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                    <img src="/images/site-logo.svg"
+                        class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
+                        alt="The 2nd Workshop on Human-Centered AI for SE Logo" />
+                    <div
+                        class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                        The 2nd Workshop on Human-Centered AI for SE</div>
+                </a>
+                <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                        <path x-show="!open" fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                        <path x-show="open" fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav :class="{'flex': open, 'hidden': !open}"
+                class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+                
+                
+                <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
+                    href="https://humanai4se.github.io/" title="Home">
+                    Home
+                </a>
+                
+                
+                
+                <!-- <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
+                    href="https://humanai4se.github.io/posts/" title="Human AISE Workshop Posts">
+                    Human AISE Workshop Posts
+                </a> -->
+                
+                
+                
+                <button id="theme-toggle" type="button"
+                        class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden">
+                    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                        </path>
+                    </svg>
+                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                
+            </nav>
         </div>
-        <nav :class="{'flex': open, 'hidden': !open}"
-             class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-            
-            
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
-                href="https://humanai4se.github.io/" title="Home">
-                Home
-            </a>
-            
-            
-            
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
-                href="https://humanai4se.github.io/posts/" title="Human AISE Workshop Posts">
-                Human AISE Workshop Posts
-            </a>
-            
-            
-            
-            <button id="theme-toggle" type="button"
-                    class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden">
-                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
-                    </path>
-                </svg>
-                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                     aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                          fill-rule="evenodd" clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            
-        </nav>
     </div>
-</div>
     
 <main>
     
@@ -149,23 +149,19 @@
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
             <div class="relative sm:py-8 lg:py-0">
                 <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-                    
                     <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div>
-                    <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
-                        <defs>
-                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
-                    </svg>
-                </div>
+                        <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                            <defs>
+                                <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
+                                </pattern>
+                            </defs>
+                            <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
+                        </svg>
+                    </div>
                 <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
                     <div class="overflow-hidden shadow-xl rounded-2xl">
-                        
-                        
-                        
-<img src="/images/pages/organizing_committee_2026.webp" width="4322" height="3804" class="w-full h-auto" alt="P1" loading="lazy" />
+                        <img src="/images/pages/organizing_committee_2026.webp" width="4322" height="3804" class="w-full h-auto" alt="P1" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -176,19 +172,13 @@
                     </h2>
                     <div class="mt-6 text-gray-900 dark:text-white">
                         <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
-                            
-                            
                             <p class="text-lg text-gray-900 dark:text-white">
                                 Yu Huang, Vanderbilt University, USA: <a href='https://yuhuang-lab.github.io/' class='text-primary-400 dark:text-primary-100'>yuhuang-lab.github.io</a> (<a href='mailto:yu.huang@vanderbilt.edu' class='text-primary-400 dark:text-primary-100'>yu.huang@vanderbilt.edu</a>)
                             </p>
-                            
-                            
-<p class="text-lg text-gray-900 dark:text-white">
+                            <p class="text-lg text-gray-900 dark:text-white">
                                 Daye Nam, University of California, Irvine , USA: <a href='https://dayenam.com/' class='text-primary-400 dark:text-primary-100'>dayenam.com</a> (<a href='mailto:daye.nam@uci.edu' class='text-primary-400 dark:text-primary-100'>daye.nam@uci.edu</a>)
                             </p>
-
-                            
-<p class="text-lg text-gray-900 dark:text-white">
+                            <p class="text-lg text-gray-900 dark:text-white">
                                 Zhou Yang, University of Alberta, Canada: <a href='https://apps.ualberta.ca/directory/person/zy25' class='text-primary-400 dark:text-primary-100'>apps.ualberta.ca/directory/person/zy25</a> (<a href='mailto:zy25@ualberta.ca' class='text-primary-400 dark:text-primary-100'>zy25@ualberta.ca</a>)
                             </p>
                             
@@ -210,7 +200,7 @@
         </div>
     </div>
 
-<div class="relative my-4">
+    <div class="relative my-4">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-1 lg:items-start lg:gap-24 lg:px-8">
             <div class="relative sm:py-8 lg:py-0">
                 <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -271,41 +261,30 @@
             </div>
             <!--<div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">-->
             <div class="relative max-w-4xl px-4 mx-auto sm:max-w-5xl sm:px-6 lg:px-0">
-
-
-                
                 <div class="md:pt-12 sm:pt-6 lg:pt-20">
                     <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                         Steering Committee
                     </h2>
                     <div class="mt-6 text-gray-900 dark:text-white">
                         <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
-                            
-                            
                             <p class="text-lg text-gray-900 dark:text-white">
                                 Yu Huang, Vanderbilt University, USA: <a href='https://yuhuang-lab.github.io/' class='text-primary-400 dark:text-primary-100'>yuhuang-lab.github.io</a> (<a href='mailto:yu.huang@vanderbilt.edu' class='text-primary-400 dark:text-primary-100'>yu.huang@vanderbilt.edu</a>)
                             </p>
-                            
                            <p class="text-lg text-gray-900 dark:text-white">
                                 Tom Zimmermann, University of California, Irvine, USA: <a href='https://thomas-zimmermann.com/' class='text-primary-400 dark:text-primary-100'>thomas-zimmermann.com/</a> (<a href='mailto:tzimmer@uci.edu' class='text-primary-400 dark:text-primary-100'>tzimmer@uci.edu</a>)
                             </p>
-
                             <p class="text-lg text-gray-900 dark:text-white">
                                 Daniel Russo, Aalborg University, Denmark: <a href='https://www.danielrusso.org/' class='text-primary-400 dark:text-primary-100'>danielrusso.org</a> (<a href='mailto:daniel.russo@cs.aau.dk' class='text-primary-400 dark:text-primary-100'>daniel.russo@cs.aau.dk</a>)
                             </p>
-
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                Tianyi Zhang, Purdue University, USA: <a href='https://tianyi-zhang.github.io/' class='text-primary-400 dark:text-primary-100'>tianyi-zhang.github.io</a> (<a href='mailto:tianyi@purdue.edu' class='text-primary-400 dark:text-primary-100'>tianyi@purdue.edu</a>)
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                Tianyi Zhang, Purdue University, USA: <a href='https://tianyi-zhang.github.io/' class='text-primary-400 dark:text-primary-100'>tianyi-zhang.github.io</a> (<a href='mailto:tianyi@purdue.edu' class='text-primary-400 dark:text-primary-100'>tianyi@purdue.edu</a>)
                             </p>
-                            
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                David Lo, Singapore Management University, Singapore: <a href='http://www.mysmu.edu/faculty/davidlo/' class='text-primary-400 dark:text-primary-100'>www.mysmu.edu/faculty/davidlo</a> (<a href='mailto:davidlo@smu.edu.sg' class='text-primary-400 dark:text-primary-100'>davidlo@smu.edu.sg</a>)
-                            </p>
-
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                John Grundy, Monash University, Australia: <a href='https://sites.google.com/site/johncgrundy' class='text-primary-400 dark:text-primary-100'>sites.google.com/site/johncgrundy</a> (<a href='mailto:john.grundy@monash.edu' class='text-primary-400 dark:text-primary-100'>john.grundy@monash.edu</a>)
-                            </p>
-                            
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                David Lo, Singapore Management University, Singapore: <a href='http://www.mysmu.edu/faculty/davidlo/' class='text-primary-400 dark:text-primary-100'>www.mysmu.edu/faculty/davidlo</a> (<a href='mailto:davidlo@smu.edu.sg' class='text-primary-400 dark:text-primary-100'>davidlo@smu.edu.sg</a>)
+                            </p>
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                John Grundy, Monash University, Australia: <a href='https://sites.google.com/site/johncgrundy' class='text-primary-400 dark:text-primary-100'>sites.google.com/site/johncgrundy</a> (<a href='mailto:john.grundy@monash.edu' class='text-primary-400 dark:text-primary-100'>john.grundy@monash.edu</a>)
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -367,7 +346,7 @@
 
     
 
-    <div class="overflow-hidden sm:pt-6 lg:relative">
+    <!-- <div class="overflow-hidden sm:pt-6 lg:relative">
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
             <div>
                 <div class="md:mt-8">
@@ -408,12 +387,57 @@
                     </svg>
                 </div>
                 <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-                    
-                    
-                    
                     <img imgh src="/images/pages/mission.webp" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none sm:max-w-xs lg:max-w-64" loading="lazy" />
-                    
-                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="overflow-hidden sm:pt-6">
+        <div class="px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-center">
+                <!-- Text content on the left -->
+                <div class="md:mt-8">
+                    <div class="mt-6">
+                        <h2
+                            class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
+                            Our Mission
+                        </h2>
+                        <div class="space-y-6 mt-6">
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                Our mission is to foster a human-centered approach to AI in software engineering, creating
+                                tools and methods that enhance, rather than replace, human creativity and decision-making.
+                                We are dedicated to advancing AI that aligns with human values, builds trust, and integrates
+                                seamlessly into developers' workflows.
+                            </p>
+    
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                Through collaboration among leading researchers, industry experts, and practitioners, we aim
+                                to explore how AI can support software engineers in a way that respects transparency,
+                                fairness, and ethical standards. Our focus is on developing AI techniques that not only
+                                improve productivity but also uphold the integrity of human involvement.
+                            </p>
+    
+                            <p class="text-lg text-gray-900 dark:text-white">
+                                Our workshop is a platform for innovative discussions, where participants can share
+                                insights, address challenges, and envision AI advancements that place humans at the heart of
+                                software engineering. Together, we strive to shape a future where AI and human expertise
+                                work hand in hand to build responsible, effective SE practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Image on the right -->
+                <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
+                    <div class="relative">
+                        <!-- Optional: Add background decoration -->
+                        <div
+                            class="hidden lg:block absolute inset-0 bg-gray-50 dark:bg-gray-900/10 rounded-3xl transform translate-x-8 translate-y-8 -z-10">
+                        </div>
+                        <img src="/images/pages/mission.webp" alt="Our Mission"
+                            class="w-full max-w-sm lg:max-w-md xl:max-w-lg rounded-lg shadow-xl" loading="lazy" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -522,7 +546,9 @@
                 <p class="mt-4 text-gray-900 dark:text-white">
                     <strong>Key Deadlines:</strong>
                     <ul class="list-disc pl-6 mt-2">
-                        <li>TODO</li>
+                        <li><strong>Submission Deadline:</strong>Thursday, February 12, 2026</li>
+                        <li><strong>Notification of Acceptance:</strong>Thursday, March 19, 2026</li>
+                        <li><strong>Camera Ready:</strong>Thursday, April 2, 2026</li>
                     </ul>
 
                     <!--
@@ -736,39 +762,64 @@
     
     <div class="relative mt-12">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-            Web Chair &amp; Publicity Chair
-        </h2>
-        <p class="mt-6 text-base text-gray-900 dark:text-white">
-            Responsible for overseeing the workshop’s online presence and external outreach:
-        </p>
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                Web Chair &amp; Publicity Chair
+            </h2>
+            <p class="mt-6 text-base text-gray-900 dark:text-white">
+                Responsible for overseeing the workshop’s online presence and external outreach:
+            </p>
 
-        <div class="mt-6 text-base text-gray-900 dark:text-white leading-7 space-y-5">
-            <p>
-            Zach Karas (Web Chair &amp; Publicity Chair), Ph.D. Student at Vanderbilt University, USA &mdash;
-            <a
-                href="https://zachkaras.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-primary-400 dark:text-primary-100"
-            >
-                zachkaras.com
-            </a>
-            </p>
-            <!--
-            <p>
-            Zihan Fang (Publicity Chair), Ph.D. Student at Vanderbilt University, USA &mdash;
-            <a
-                href="https://littlehousezh.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-primary-400 dark:text-primary-100"
-            >
-                littlehousezh.github.io
-            </a>
-            </p>
-            -->
+            <div class="mt-6 text-base text-gray-900 dark:text-white leading-7 space-y-5">
+                <p>
+                Zach Karas (Web Chair &amp; Publicity Chair), Ph.D. Student at Vanderbilt University, USA &mdash;
+                <a
+                    href="https://zachkaras.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-primary-400 dark:text-primary-100"
+                >
+                    zachkaras.com
+                </a>
+                </p>
+                <!--
+                <p>
+                Zihan Fang (Publicity Chair), Ph.D. Student at Vanderbilt University, USA &mdash;
+                <a
+                    href="https://littlehousezh.github.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-primary-400 dark:text-primary-100"
+                >
+                    littlehousezh.github.io
+                </a>
+                </p>
+                -->
+            </div>
         </div>
+    </div>
+    <div class="relative mt-12">
+        <div class="px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                <!-- Text content on the left -->
+                <div class="prose prose-lg max-w-none">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                        Past Human-Centered AI for SE Workshops
+                    </h2>
+                    <ul class="list-disc pl-5">
+                        <li>
+                            <a href="/archive/2025/"
+                                class="text-indigo-600 hover:text-indigo-400 dark:text-indigo-300 dark:hover:text-indigo-200 underline">
+                                2025 Workshop
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Image on the right -->
+                <div class="flex justify-center lg:justify-end">
+                    <img src="/images/pages/programmer_development.webp" alt="Programmer Development"
+                        class="w-full max-w-lg rounded-lg" />
+                </div>
+            </div>
         </div>
     </div>
 
