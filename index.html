@@ -216,62 +216,12 @@
         </div>
     </div>
 
-    <div class="relative my-4">
+    <div class="relative my-4 overflow-hidden">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-1 lg:items-start lg:gap-24 lg:px-8">
             <div class="relative sm:py-8 lg:py-0">
                 <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-                    <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div>
-                    
-                        <svg width="1000" height="700" fill="none">
-                          <defs>
-
-                            <!-- Large randomized-looking tile -->
-                            <pattern id="pixel-starfield" width="300" height="300" patternUnits="userSpaceOnUse">
-
-                              <!-- Teal stars -->
-                              <rect x="12"  y="34"  width="4" height="4" fill="#6ecae7" opacity="0.8" />
-                              <rect x="180" y="20"  width="4" height="4" fill="#6ecae7" opacity="0.8" />
-                              <rect x="260" y="140" width="4" height="4" fill="#6ecae7" opacity="0.8" />
-
-                              <!-- Yellow stars -->
-                              <rect x="95" y="280" width="4" height="4" fill="#f4e59e" opacity="1" />
-                              <rect x="140" y="60" width="4" height="4" fill="#f4e59e" opacity="1" />
-                              <rect x="15"  y="200" width="4" height="4" fill="#f4e59e" opacity="1" />
-
-                              <!-- Orange stars -->
-                              <rect x="220" y="250" width="4" height="4" fill="#f2b27a" opacity="1" />
-                              <rect x="40"  y="120" width="4" height="4" fill="#f2b27a" opacity="1" />
-                              <rect x="175" y="190" width="4" height="4" fill="#f2b27a" opacity="1" />
-
-                              <!-- Green stars -->
-                              <rect x="270" y="40"  width="4" height="4" fill="#a4e89e" opacity="1" />
-                              <rect x="80"  y="150" width="4" height="4" fill="#a4e89e" opacity="1" />
-                              <rect x="200" y="90"  width="4" height="4" fill="#a4e89e" opacity="1" />
-
-                              <!-- Three-pixel clusters (teal/orange) -->
-                              <g fill="#6ecae7" opacity="0.7">
-                                <rect x="50" y="240" width="4" height="4" />
-                                <rect x="52" y="242" width="4" height="4" />
-                                <rect x="54" y="240" width="4" height="4" />
-                              </g>
-
-                              <g fill="#f2b27a" opacity="1">
-                                <rect x="130" y="110" width="2" height="2" />
-                                <rect x="132" y="112" width="2" height="2" />
-                                <rect x="134" y="110" width="2" height="2" />
-                              </g>
-
-                              <!-- Tiny specks -->
-                              <rect x="10"  y="10"  width="1.5" height="1.5" fill="#ffffff" opacity="1" />
-                              <rect x="290" y="290" width="1.5" height="1.5" fill="#ffffff" opacity="1" />
-                              <rect x="150" y="260" width="1.5" height="1.5" fill="#ffffff" opacity="1" />
-
-                            </pattern>
-                          </defs>
-
-                          <rect width="100%" height="100%" fill="url(#pixel-starfield)" />
-                        </svg>
-
+                    <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div>     
+                        <img src="/images/pixel-starfield.svg" width="1000" height="700" alt="" aria-hidden="true" loading="lazy" />
                 </div>
                 
             </div>
@@ -308,106 +258,52 @@
         </div>
     </div>
 
-<!--
-<div class="overflow-hidden sm:pt-6 lg:relative">
-        <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
-            <div>
-                <div class="md:mt-8">
-                    <div class="mt-6 sm:max-w-xl">
-                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
-                            Keynote
-                        </h2>
-                        <div class="space-y-6">
-
-                            <p class="text-lg text-gray-900 dark:text-white">
-
-                            </p>
-
-                            <p class="text-lg text-gray-900 dark:text-white">
-
-                            </p>
-
-                            <p class="text-lg text-gray-900 dark:text-white">
-
-                            </p>
-
+    <div class="overflow-hidden sm:pt-6 lg:relative">
+            <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
+                <div>
+                    <div class="md:mt-8">
+                        <div class="mt-6 sm:max-w-xl">
+                            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
+                                Keynote by Chris Parnin
+                            </h2>
+                            <h3 class="text-xl font-medium tracking-tight text-gray-500 dark:text-gray-400 mt-2">
+                                Principle Researcher at Microsoft
+                            </h3>
                         </div>
                     </div>
                 </div>
+                
+                <!-- RIGHT COLUMN (IMAGE + DECORATION) -->
+                <div class="relative mt-10 sm:mt-12 lg:mt-0">
+                    
+                    <!-- Decorative background, positioned behind -->
+                <div class="absolute inset-0 -z-10">
+                    <div class="absolute inset-y-0 left-1/2 w-screen rounded-l-3xl bg-gray-50 dark:bg-gray-900/10"></div>
+                    
+                    <svg class="absolute top-8 right-1/2 sm:right-auto sm:left-0"
+                    width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                    <defs>
+                        <pattern id="pattern-bg" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <rect x="0" y="0" width="4" height="4"
+                            class="text-gray-200 dark:text-gray-900/60"
+                            fill="currentColor"></rect>
+                        </pattern>
+                    </defs>
+                    <rect width="404" height="392" fill="url(#pattern-bg)"></rect>
+                </svg>
             </div>
-        </div>
-        <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-            <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <div class="hidden sm:block">
-                    <div class="absolute inset-y-0 w-screen left-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:left-80 lg:right-0 lg:w-full"></div>
-                    <svg class="absolute -mr-3 top-8 right-1/2 lg:left-0 lg:m-0" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
-                        <defs>
-                            <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
-                    </svg>
-                </div>
-                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-
-                    <img imgh src="/images/pages/our_mission_dalle_group_v2_hu65b8812f771fef2c02aa88d99bcdef16_1360034_2007x2007_resize_q90_h2_box_3.webp" width="2007" height="2007" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
-
-
-                </div>
+            
+                <!-- Speaker image -->
+                <img
+                src="/images/pages/parnin.png"
+                alt="Chris Parnin"
+                class="relative z-10 w-full max-w-md lg:max-w-lg h-auto rounded-lg shadow-xl object-cover mx-auto"
+                loading="lazy"
+                />
+            
             </div>
         </div>
     </div>
-    -->
-
-    
-
-    <!-- <div class="overflow-hidden sm:pt-6 lg:relative">
-        <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
-            <div>
-                <div class="md:mt-8">
-                    <div class="mt-6 sm:max-w-xl">
-                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
-                            Our Mission
-                        </h2>
-                        <div class="space-y-6">
-                            
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                Our mission is to foster a human-centered approach to AI in software engineering, creating tools and methods that enhance, rather than replace, human creativity and decision-making. We are dedicated to advancing AI that aligns with human values, builds trust, and integrates seamlessly into developers&#39; workflows.
-                            </p>
-                            
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                Through collaboration among leading researchers, industry experts, and practitioners, we aim to explore how AI can support software engineers in a way that respects transparency, fairness, and ethical standards. Our focus is on developing AI techniques that not only improve productivity but also uphold the integrity of human involvement.
-                            </p>
-                            
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                Our workshop is a platform for innovative discussions, where participants can share insights, address challenges, and envision AI advancements that place humans at the heart of software engineering. Together, we strive to shape a future where AI and human expertise work hand in hand to build responsible, effective SE practices.
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-            <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <div class="hidden sm:block">
-                    <div class="absolute inset-y-0 w-screen left-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:left-80 lg:right-0 lg:w-full"></div>
-                    <svg class="absolute -mr-3 top-8 right-1/2 lg:left-0 lg:m-0" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
-                        <defs>
-                            <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
-                    </svg>
-                </div>
-                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-                    <img imgh src="/images/pages/mission.webp" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none sm:max-w-xs lg:max-w-64" loading="lazy" />
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div class="overflow-hidden sm:pt-6">
         <div class="px-4 sm:px-6 lg:px-8">
@@ -510,9 +406,6 @@
             </div>
         </div>
     </div>
-
-    
-
     
     <div class="relative my-4">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
@@ -632,8 +525,15 @@
 
 -->
     
-    <div class="relative mt-12">
-        <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
+    <div class="relative mt-12 overflow-hidden">
+        <img
+            class="absolute inset-0 z-0 h-full w-full object-cover"
+            src="/images/pixel-starfield.svg"
+            aria-hidden="true"
+            alt=""
+        />
+        <!-- <div class="lg:mx-auto lg:max-w-7xl lg:px-8"> -->
+        <div class="relative z-10 lg:mx-auto lg:max-w-7xl lg:px-8">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                 Program Committee
             </h2>
@@ -802,7 +702,169 @@
         </div>
     </div>
     
+    <div id="program-schedule" class="relative mt-12">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+            HumanAISE 2026 Program
+            </h2>
+            
+            <!-- <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            Friday, June 27 | Room VEGA
+            </p> -->
+        <div class="mt-6 overflow-x-auto">
+        <table class="min-w-full border border-gray-200 dark:border-gray-700 divide-y divide-gray-200 dark:divide-gray-700 table-auto">
+            <div class="mt-6 overflow-x-auto">
+                <table class="min-w-full border border-gray-200 dark:border-gray-700 divide-y divide-gray-200 dark:divide-gray-700 table-auto">
+                    <thead class="bg-gray-50 dark:bg-gray-800">
+                    <tr>
+                        <th class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-left text-sm font-semibold text-gray-600 dark:text-gray-300">
+                        Time
+                        </th>
+                        <th class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-left text-sm font-semibold text-gray-600 dark:text-gray-300">
+                        Activity
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody class="bg-white dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700">
 
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        9:00 am – 9:10 am
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Opening
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        9:10 am – 10:00 am
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Keynote and Q&amp;A with Chris Parnin (Principle Researcher at Microsoft)
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        10:00 am – 10:30 am
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Networking &amp; Discussion
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        10:30 am – 11:00 am
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Morning Coffee Break
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        11:00 am – 12:30 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        <p class="font-medium">Session One: Human Trust, Reliance, and Control in AI-Assisted Software Engineering</p>
+                        
+                        <div class="mt-3 columns-2 gap-6">
+                            <ul class="list-disc list-inside space-y-1">
+                            <li>Keeping Humans in the Driver's Seat: A Conceptual Framework for GenAI and Competence Debt (7 min)</li>
+                            <li>Configurable AI Coding Assistants: Designing For Developers Who Like to Be in Control (7 min)</li>
+                            <li>Trust the AI, Doubt Yourself: The Hidden Effect of Urgency on Self-Confidence in Human-AI Interaction (7 min)</li>
+                            <li>Towards an Appropriate Level of Reliance on AI: A Preliminary Reliance-Control Framework for AI in Software Engineering (5 min)</li>
+                            </ul>
+                        </div>
+
+                        <p class="mt-4 italic">Discussion &amp; Exercise (60 min)</p>
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        12:30 pm – 14:00 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Lunch
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        14:00 pm – 15:30 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        <p class="font-medium">Session Two: Cognition and AI-Augmented Developer Workflows</p>
+                        
+                        <div class="mt-3 columns-2 gap-6">
+                            <ul class="list-disc list-inside space-y-1">
+                            <li>Stop the Retrieval Thrash: Brain-Guided Episodic Memory for Repository-Scale Coding Agents (5 min)</li>
+                            <li>Improving AI tools using measures of brain activity (5 min)</li>
+                            <li>The Role of LLMs in Collaborative Software Design (7 min)</li>
+                            <li>The Fast and Spurious: Developer Productivity with GenAI (7 min)</li>
+                            <li>Who Tells the Documentation Team? How AI Agents Disrupt Documentation Feedback Loops (5 min)</li>
+                            </ul>
+                        </div>
+
+                        <p class="mt-4 italic">Discussion &amp; Exercise (55 min)</p>
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        15:30 pm – 16:00 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Afternoon Coffee Break
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        16:00 pm – 17:30 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        <p class="font-medium">Session Three: Fairness, Ethics, and Social Dimensions of AI in Software Engineering</p>
+                        
+                        <div class="mt-3 columns-2 gap-6">
+                            <ul class="list-disc list-inside space-y-1">
+                            <li>Fairness Across Fields: Comparing Software Engineering and Human Sciences Perspectives (7 min)</li>
+                            <li>A Systematic Review of Bias Detection and Dataset Improvement Methods for Fair AI Systems (7 min)</li>
+                            <li>Shh! Don't Tell Them I Use GenAI: Exploring How Participants Use Generative AI in Hackathons (7 min)</li>
+                            </ul>
+                        </div>
+
+                        <p class="mt-4 italic">Discussion &amp; Exercise (65 min)</p>
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="even:bg-gray-50 dark:even:bg-gray-800">
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
+                        17:30 pm – 18:00 pm
+                        </td>
+                        <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
+                        Discussion &amp; Closing
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     
     <div class="relative mt-12">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
@@ -825,19 +887,6 @@
                     zachkaras.com
                 </a>
                 </p>
-                <!--
-                <p>
-                Zihan Fang (Publicity Chair), Ph.D. Student at Vanderbilt University, USA &mdash;
-                <a
-                    href="https://littlehousezh.github.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-primary-400 dark:text-primary-100"
-                >
-                    littlehousezh.github.io
-                </a>
-                </p>
-                -->
             </div>
         </div>
     </div>
@@ -866,403 +915,6 @@
             </div>
         </div>
     </div>
-
-    <!--
-    <div class="relative mt-12">
-        <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                Accepted Papers
-            </h2>
-            <ul class="mt-8 text-base text-gray-900 dark:text-white leading-relaxed">
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Training Large Language Models to Comprehend LLVM IR via Feedback-Driven Optimization</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Yifan Zhang (Vanderbilt University), Kevin Leach (Vanderbilt University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">"I Would Have Written My Code Differently": Beginners Struggle to Understand LLM-Generated Code"</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Yangtian Zi (Northeastern University), Luisa Li (Northeastern University), Arjun Guha (Northeastern University), Carolyn Anderson (Wellesley College), Molly Q Feldman (Oberlin College)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">An Investigation into Maintenance Support for Neural Networks</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Fatema Tuz Zohra (George Mason University), Brittany Johnson-Matthews (George Mason University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">The Evolution of Information Seeking in Software Development: Understanding the Role and Impact of AI Assistants</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Ebtesam Al Haque (George Mason University), Chris Brown (Virginia Tech), Thomas D. LaToza (George Mason University), Brittany Johnson (George Mason University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Get on the Train or be Left on the Station: Using LLMs for Software Engineering Research</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Bianca Trinkenreich (Colorado State University), Fabio Calefato (University of Bari), Geir Hanssen (SINTEF), Kelly Blincoe (University of Auckland), Marcos Kalinowski (Pontifical Catholic University of Rio de Janeiro (PUC-Rio)), Mauro Pezzè (USI Università della Svizzera Italiana & SIT Schaffhausen Institute of Technology), Paolo Tell (IT University of Copenhagen), Margaret-Anne "Peggy" Storey (University of Victoria)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Why Do Software Practitioners Use ChatGPT for Software Development Tasks?</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Fairuz Nawer Meem (George Mason University), Justin Smith (Lafayette College), Brittany Johnson-Matthews (George Mason University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Clash of Requirements: Users First vs. Model First</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Tor Sporsem (SINTEF), Rasmus Ulfsnes (SINTEF), Morten Hatling (SINTEF), Inga Strümke (NTNU)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Human-Centric Hybrid-AI for No-Code Development</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Thiago Rocha Silva (The Maersk Mc-Kinney Moller Institute, University of Southern Denmark), Thomas Troels Hildebrandt (Department of Computer Science, University of Copenhagen)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">AI Coding Tools in Bilingual Software Development: A Survey of Spanish-Speaking Developers</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Miguel Botto-Tobar (Eindhoven University of Technology), Alexander Serebrenik (Eindhoven University of Technology), M.G.J. van den Brand (Eindhoven University of Technology)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Attitudes Towards LLM Use Among Software Engineering Researchers: Results From A Two-Phase Survey Study</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Viggo Tellefsen Wivestad (SINTEF Digital), Astri Barbala (SINTEF Digital)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Leveraging Human Insights for Enhanced LLM-based Code Repair</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Yifan Zhang (Vanderbilt University), Kevin Leach (Vanderbilt University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">Towards a LLM-Based System for Generating and Validating Product Requirements</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Evan Krueger (Vanderbilt University), Taylor Carpenter (Vanderbilt University), Kevin Leach (Vanderbilt University), James Weimer (Vanderbilt University)</em>
-                </li>
-                <li class="mb-6">
-                    <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">An Empirical Study on the Impact of Gender Diversity on Code Quality in AI Systems</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Shamse Tasnim Cynthia (University of Saskatchewan), Banani Roy (University of Saskatchewan)</em>
-                </li>
-                <li class="mb-6"> <strong class="block text-lg font-semibold text-gray-900 dark:text-gray-100">CodeNoCode Predictive Modeling: Co-Development with LLMs for Transparency and Inclusivity</strong>
-                    <em class="block mt-1 text-gray-700 dark:text-gray-300">Felix Dobslaw (Mid Sweden University), Leif Sundberg (Umeå University)</em>
-                </li>
-            </ul>
-        </div>
-    </div>
-    -->
-    
-
-   <!--
-    <div id="program-schedule" class="relative mt-12">
-    <div class="lg:mx-auto lg:max-w-7xl lg:px-8">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-        HumanAISE 2026 Program
-        </h2>
-        
-        <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-        Friday, June 27 | Room VEGA
-        </p>
-    <div class="mt-6 overflow-x-auto">
-      <table class="min-w-full border border-gray-200 dark:border-gray-700 divide-y divide-gray-200 dark:divide-gray-700 table-auto">
-        <div class="mt-6 overflow-x-auto">
-        <table class="min-w-full border border-gray-200 dark:border-gray-700 divide-y divide-gray-200 dark:divide-gray-700 table-auto">
-            <thead class="bg-gray-50 dark:bg-gray-800">
-            <tr>
-                <th class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-left text-sm font-semibold text-gray-600 dark:text-gray-300">
-                Time
-                </th>
-                <th class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-left text-sm font-semibold text-gray-600 dark:text-gray-300">
-                Activity
-                </th>
-            </tr>
-            </thead>
-            <tbody class="bg-white dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700">
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                9:00 am – 9:10 am
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Opening
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                9:10 am – 10:00 am
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Keynote &amp; Q&amp;A
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                10:00 am – 10:30 am
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Networking &amp; Discussion
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                10:30 am – 11:00 am
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Morning Coffee Break
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                11:00 am – 1:00 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                <p class="font-medium">Topic: Human AI Teaming</p>
-                
-                <div class="mt-3 columns-2 gap-6">
-                    <ul class="list-disc list-inside space-y-1">
-                    <li>The Evolution of Information Seeking in Software Development: Understanding the Role and Impact of AI Assistants (10 min)</li>
-                    <li>Human-Centric Hybrid-AI for No-Code Development (5 min)</li>
-                    <li>AI Coding Tools in Bilingual Software Development: A Survey of Spanish-Speaking Developers (10 min)</li>
-                    <li>CodeNoCode Predictive Modeling: Co-Development with LLMs for Transparency and Inclusivity (5 min)</li>
-                    <li>An Investigation into Maintenance Support for Neural Networks (7 min)</li>
-                    </ul>
-                </div>
-
-                <p class="mt-4 italic">Discussion &amp; Exercise (83 min)</p>
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                1:00 pm – 2:00 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Lunch
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                2:00 pm – 3:30 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                <p class="font-medium">Topic: Human-Guided AI</p>
-                
-                <div class="mt-3 columns-2 gap-6">
-                    <ul class="list-disc list-inside space-y-1">
-                    <li>Training Large Language Models to Comprehend LLVM IR via Feedback-Driven Optimization (5 min)</li>
-                    <li>“I Would Have Written My Code Differently”: Beginners Struggle to Understand LLM-Generated Code (10 min)</li>
-                    <li>Leveraging Human Insights for Enhanced LLM-based Code Repair (5 min)</li>
-                    <li>An Empirical Study on the Impact of Gender Diversity on Code Quality in AI Systems (10 min)</li>
-                    </ul>
-                </div>
-
-                <p class="mt-4 italic">Discussion &amp; Exercise (60 min)</p>
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                3:30 pm – 4:00 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Afternoon Coffee Break
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                4:00 pm – 5:40 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                <p class="font-medium">Topic: LLM Usage in SE Development</p>
-                
-                <div class="mt-3 columns-2 gap-6">
-                    <ul class="list-disc list-inside space-y-1">
-                    <li>Get on the Train or be Left on the Station: Using LLMs for Software Engineering Research (7 min)</li>
-                    <li>Why Do Software Practitioners Use ChatGPT for Software Development Tasks? (10 min)</li>
-                    <li>Clash of Requirements: Users First vs. Model First (7 min)</li>
-                    <li>Attitudes Towards LLM Use Among Software Engineering Researchers: Results From a Two-Phase Survey Study (7 min)</li>
-                    <li>Towards a LLM-Based System for Generating and Validating Product Requirements (5 min)</li>
-                    </ul>
-                </div>
-
-                <p class="mt-4 italic">Discussion &amp; Exercise (64 min)</p>
-                </td>
-            </tr>
-
-            
-            <tr class="even:bg-gray-50 dark:even:bg-gray-800">
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 align-top text-gray-900 dark:text-gray-100 whitespace-normal">
-                5:40 pm – 6:00 pm
-                </td>
-                <td class="border border-gray-200 dark:border-gray-700 px-8 py-6 text-gray-900 dark:text-gray-100 whitespace-normal">
-                Discussion &amp; Closing
-                </td>
-            </tr>
-
-            </tbody>
-        </table>
-        </div>
-    </div>
-    </div>
-    
--->
-
-
-   <!-- 
-    <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
-        <div class="absolute inset-0">
-            <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
-        </div>
-        <div class="relative px-2 mx-auto max-w-7xl">
-            <div class="text-center">
-                <h2 class="text-3xl font-black tracking-tight text-primary-500 dark:text-primary-300 sm:text-4xl">
-                    HumanAISE Workshop Updates
-                </h2>
-                
-                <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
-                    Explore the latest insights on human-centered AI in software engineering, featuring articles on ethical AI, collaboration tools, and advancements in AI4Code.
-                </p>
-                
-            </div>
-
-            <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
-                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
-                    <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
-                        
-                        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                            <a href="https://humanai4se.github.io/posts/blog-post-4/">
-                                
-                                
-                                
-                                <img src="/../assets/images/featured/blog_norwegian_wood_hud9e1920dc316540121dc6090fc67aaaf_373856_500x0_resize_q90_h2_box_3.webp" class="object-fill overflow-hidden rounded-t-lg" width="100%" height="" loading="lazy" alt="/../assets/images/featured/blog_norwegian_wood.png" />
-
-                                
-                                
-                            </a>
-                            <div class="p-6">
-                                <div class="flex-1">
-                                    <a href="https://humanai4se.github.io/posts/blog-post-4/" class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                                        Reflections on &#39;Norwegian Wood&#39; and FSE 2026 in Trondheim
-                                    </a>
-                                    <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                                        Exploring the connections between Haruki Murakami&#39;s &#39;Norwegian Wood&#39; and the upcoming FSE 2026 conference in Trondheim, Norway.
-                                    </p>
-                                </div>
-                                <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-                                    <span class="pr-2 font-black">Tags:</span>
-                                    <a href="https://humanai4se.github.io/tags/norwegian-wood-haruki-murakami-trondheim/" class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 ">Norwegian Wood, Haruki Murakami, Trondheim</a></div>
-                                <div class="flex items-center mt-6">
-                                    <div class="flex-shrink-0">
-                                        <span class="sr-only">HumanAISE Workshop Team</span>
-                                        
-                                        
-                                        
-                                    </div>
-                                    <div class="pt-1 ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                            HumanAISE Workshop Team
-                                        </p>
-                                        <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                                            <time datetime="2026-02-04T19:42:49-06:00">2026-02-04</time>
-                                            <span aria-hidden="true">&middot;</span>
-                                            <span>2 min read</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                            <a href="https://humanai4se.github.io/posts/news-post-1/">
-                                
-                                
-                                
-                                <img src="/../assets/images/featured/news_1_hu61663e5a9d898f9d61b2093346311513_681620_500x0_resize_q90_h2_box_3.webp" class="object-fill overflow-hidden rounded-t-lg" width="100%" height="" loading="lazy" alt="/../assets/images/featured/news_1.png" />
-
-                                
-                                
-                            </a>
-                            <div class="p-6">
-                                <div class="flex-1">
-                                    <a href="https://humanai4se.github.io/posts/news-post-1/" class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                                        Website Launch Announcement
-                                    </a>
-                                    <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                                        We are thrilled to announce that the HumanAISE Workshop website is now live! Explore our mission, ongoing projects, and upcoming events focused on advancing human-centered AI in software engineering.
-                                    </p>
-                                </div>
-                                <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-                                    <span class="pr-2 font-black">Tags:</span>
-                                    <a href="https://humanai4se.github.io/tags/website-launch-news/" class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 ">Website Launch, News</a></div>
-                                <div class="flex items-center mt-6">
-                                    <div class="flex-shrink-0">
-                                        <span class="sr-only">HumanAISE Workshop Team</span>
-                                        
-                                        
-                                        
-                                    </div>
-                                    <div class="pt-1 ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                            HumanAISE Workshop Team
-                                        </p>
-                                        <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                                            <time datetime="2024-11-11T11:10:36&#43;08:00">2024-11-11</time>
-                                            <span aria-hidden="true">&middot;</span>
-                                            <span>1 min read</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                            <a href="https://humanai4se.github.io/posts/blog-post-1/">
-                                
-                                
-                                
-                                <img src="/../assets/images/featured/blog_1_hu16732af6c8277e3c2df4803117113a54_278465_500x0_resize_q90_h2_box_3.webp" class="object-fill overflow-hidden rounded-t-lg" width="100%" height="" loading="lazy" alt="/../assets/images/featured/blog_1.png" />
-
-                                
-                                
-                            </a>
-                            <div class="p-6">
-                                <div class="flex-1">
-                                    <a href="https://humanai4se.github.io/posts/blog-post-1/" class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
-                                        Introduction to HumanAI4SE
-                                    </a>
-                                    <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                                        Explore the intersection of AI and Software Engineering, focusing on human-centered approaches to enhance developer productivity and uphold ethical standards.
-                                    </p>
-                                </div>
-                                <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
-                                    <span class="pr-2 font-black">Tags:</span>
-                                    <a href="https://humanai4se.github.io/tags/ai4code-software-engineering-human-centered-ai-workshop/" class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 ">AI4Code, Software Engineering, Human-Centered AI, Workshop</a></div>
-                                <div class="flex items-center mt-6">
-                                    <div class="flex-shrink-0">
-                                        <span class="sr-only">HumanAISE Workshop Team</span>
-                                        
-                                        
-                                        
-                                    </div>
-                                    <div class="pt-1 ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-white">
-                                            HumanAISE Workshop Team
-                                        </p>
-                                        <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
-                                            <time datetime="2024-11-10T11:10:36&#43;08:00">2024-11-10</time>
-                                            <span aria-hidden="true">&middot;</span>
-                                            <span>1 min read</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   -->
-    
-
 </main>
 
 <!--<div class="w-full overflow-hidden">
